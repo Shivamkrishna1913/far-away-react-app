@@ -31,7 +31,7 @@ export default function App() {
         onDeleteitem={handleDeleteitem}
         onToggleItem={handleToggleItem}
       />
-      <Stats />
+      <Stats items={items} />
     </>
   );
 }
